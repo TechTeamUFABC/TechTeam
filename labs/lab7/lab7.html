@@ -31,12 +31,23 @@
 			<div id="wrapper">
 
 				<!-- Main -->
+				<center>
+					<div>
+						<br><br><h3 class="main">Audiodescrição</h3>
+						<audio controls>
+							<source src="audio_lab7.ogg" type="audio/mp3">
+						</audio>
+					</div>
+				</center>
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">Lab 7 - Codificação de Voz</h1>
 							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<p>Com as gravações da voz dos integrantes realizadas no laboratório anterior, nesta etapa é realizada a análise dos parâmetros de Codificação Preditiva Linear da voz (LPC), um modelo de produção da fala. Sendo assim, utilizando um script em python, cada integrante utiliza um trecho da música <a href="https://www.youtube.com/watch?v=Hsmp8yR-AK8">Vambora</a> da Adriana Calcanhotto: <em>Entre por essa porta agora e diga que me agora</em></p>
+
+							<p>Com a determinação dos parâmetros LPC de acordo com o nível dos sons sonoros e surdos, é possível realizar a separação V/UV (voiced/unvoiced) da frase. A partir desta separação, pode-se estimar o pitch e a frequência central da voz do integrante, que é comparada com o espectro original realizando o plot da frequência prevista pelo LPC e o espectrograma juntos, onde, pode-se verificar que os dois coincidem em boa parte dos pontos.</p>
+
+							<p>A seguir, encontra-se o notebook com o script em python para todos os áudios.</p>
 						</div>
 					</section>
 
