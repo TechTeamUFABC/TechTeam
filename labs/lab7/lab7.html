@@ -35,7 +35,7 @@
 					<div>
 						<br><br><h3 class="main">Audiodescrição</h3>
 						<audio controls>
-							<source src="audio_lab7.ogg" type="audio/mp3">
+							<source src="./audiodescricao_lab7.mp3" type="audio/mp3">
 						</audio>
 					</div>
 				</center>
@@ -46,8 +46,37 @@
 							<p>Com as gravações da voz dos integrantes realizadas no laboratório anterior, nesta etapa é realizada a análise dos parâmetros de Codificação Preditiva Linear da voz (LPC), um modelo de produção da fala. Sendo assim, utilizando um script em python, cada integrante utiliza um trecho da música <a href="https://www.youtube.com/watch?v=Hsmp8yR-AK8">Vambora</a> da Adriana Calcanhotto: <em>Entre por essa porta agora e diga que me agora</em></p>
 
 							<p>Com a determinação dos parâmetros LPC de acordo com o nível dos sons sonoros e surdos, é possível realizar a separação V/UV (voiced/unvoiced) da frase. A partir desta separação, pode-se estimar o pitch e a frequência central da voz do integrante, que é comparada com o espectro original realizando o plot da frequência prevista pelo LPC e o espectrograma juntos, onde, pode-se verificar que os dois coincidem em boa parte dos pontos.</p>
+							<p>Analisando os notebooks, é possível constatar que foi possível realizar a seperação dos fonemas sonoros e surdos de maneira satisfatória, próxima da análise exemplo fornecida pelo professor, da voz da senhora Kátia.
+								A codificação linear preditiva possibilita a representação de um sinal de fala de forma compactada. Ela é uma poderosa técnica de análise de fala e um método útil para codificar sinais de voz em boa qualidade a uma taxa de bits baixa.</p>
+							<p>Áudios utilizados no laboratório:</p>
 
-							<p>A seguir, encontra-se o notebook com o script em python para todos os áudios.</p>
+							<h3><li>Adinan</li></h3>
+							<audio controls>
+								<source src="audios/Frase1_AdinanAlvesDeBritoFilho_shure.wav" type="audio/wav">
+							</audio>
+
+							<br><h3><li>João</li></h3>
+							<audio controls>
+								<source src="../lab6/gravacoes/Frase1_JoaoPedroSilvaCardoso_shure.wav" type="audio/wav">
+							</audio>
+
+							<br><h3><li>Walter</li></h3>
+								<audio controls>
+									<source src="audios/Frase1_WalterOliveira_v2.wav" type="audio/wav">
+								</audio>
+
+
+							<br><br><p>A seguir, encontram-se os notebooks com o script em Python para os membros do grupo.</p>
+							
+							<h2>Adinan</h2>
+							<center><iframe src="https://nbviewer.org/github/TechTeamUFABC/TechTeam/blob/main/labs/lab7/Adinan_Lab7_AnaliseLPCVoz.ipynb" style="width:100%;height:600px; float:center"></iframe></center>
+							
+							<h2>Joao</h2>
+							<center><iframe src="https://nbviewer.org/github/TechTeamUFABC/TechTeam/blob/main/labs/lab7/Joao_Lab7_AnaliseLPCVoz.ipynb" style="width:100%;height:600px; float:center"></iframe></center>
+
+							<h2>Walter</h2>
+							<center><iframe src="https://nbviewer.org/github/TechTeamUFABC/TechTeam/blob/main/labs/lab7/Walter_Lab7_AnaliseLPCVoz.ipynb" style="width:100%;height:600px; float:center"></iframe></center>
+
 						</div>
 					</section>
 
